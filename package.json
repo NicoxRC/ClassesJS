@@ -1,0 +1,11 @@
+{
+  "name": "classesjs",
+  "version": "1.0.0",
+  "description": "Proyecto para aprender JavaScript",
+  "scripts": {
+    "dev": "nodemon --watch . --ext js"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
