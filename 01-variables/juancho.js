@@ -11,17 +11,17 @@ console.log('Nave de ' + piloto);
 
 //Segundo mensaje, da el estado del escudo de la nave y su valor.
 let estadoEscudo = escudo >= 50 ? 'Escudo operativo' : '¡Escudo crítico!';
-console.log(estadoEscudo + ` (${escudo}%)`);
+console.log(`${estadoEscudo} (${escudo}%)`);
 
 //Tercer mensaje, evalúa y da el rango del piloto.
 if(puntos >= 10000){
-    console.log('Rango S - Comandante Estelar' + ` (${puntos} pts)`);
+    console.log(`Rango S - Comandante Estelar (${puntos} pts)`);
 }else if(puntos >= 5000){
-    console.log('Rango A - Piloto de Élite' + ` (${puntos} pts)`);
-}else if(puntos >= 5000){
-    console.log('Rango B - Cadete' + ` (${puntos} pts)`);
+    console.log(`Rango A - Piloto de Élite (${puntos} pts)`);
+}else if(puntos >= 1000){
+    console.log(`Rango B - Cadete (${puntos} pts)`);
 }else{
-    console.log('Rango C - Recién Alistado' + ` (${puntos} pts)`);
+    console.log(`Rango C - Recién Alistado (${puntos} pts)`);
 }
 
 //Cuarto mensaje, evalua si la nave puede disparar o no y por qué.
